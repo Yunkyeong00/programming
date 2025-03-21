@@ -7,4 +7,4 @@ int main(void)
 	printf("¹öÀü: 1.0|n");
 
 	return 0;
-}
+}¿¹
