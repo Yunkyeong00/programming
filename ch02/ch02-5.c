@@ -1,4 +1,4 @@
-/* 파일명: ch02-1
+/* 파일명: ch02-
 
    * 내용: 다음과 같이 풀력하는 프로그램을 작성하시오. 단, printf문은 한번만 사용한다.
 
@@ -10,16 +10,23 @@
 
    */
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 
 void solve()
 {
-	printf("int main(void)\n{\n    return 0;\n}");
+    float weight;
+
+    printf("몸무게? ");
+    scanf("%f", &weight);
+
+    printf("입력한 몸무게는 %.2fKG입니다.\n", weight);
 
 }
 
 int main()
 {
-	solve();
-	return 0;
+    solve();
+    return 0;
 }

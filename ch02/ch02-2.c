@@ -1,26 +1,37 @@
+/* 파일명: ch02-2
+
+   * 내용: 학생의 번호와 학점을 입력받아 출력하는 프로그램을 작성하시오. 학생의 번호는 정수로, 학점은 실수로 입력받는다.
+
+   * 작성자: 조윤경
+
+   * 날짜: 2025.3.21
+
+   * 버전: v1.0
+
+   */
+
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-void introMe(void);
+void solve()
+{
+    int num;
+    float score;
 
-int main() {
+    printf("번호?\n");
+    scanf("%d", &num);
 
-	introMe();
+    printf("학점?\n");
+    scanf("%f", &score);
 
-	return 0;
+    printf("%d번 학생의 학점은 %f입니다.\n", num, score);
+
 }
 
-void introMe() {
-
-	char name[64];
-	int age;
-	char hello[256];
-
-	printf("이름, 나이, 인삿말을 입려해주세요 : \n");
-	scanf("%s %d %s", name, &age, hello);
-
-	printf("이름 : %s 나이 : %d \n 인삿말 : %s", name, age, hello);
-
-	return ; 
+int main()
+{
+    solve();
+    return 0;
 }
