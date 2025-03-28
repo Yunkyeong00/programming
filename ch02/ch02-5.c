@@ -16,11 +16,10 @@
 
 void solve()
 {
-    float weight;
 
     printf("몸무게? ");
+    float weight;
     scanf("%f", &weight);
-
     printf("입력한 몸무게는 %.2fKG입니다.\n", weight);
 
 }
