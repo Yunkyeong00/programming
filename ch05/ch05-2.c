@@ -1,3 +1,14 @@
+/* 파일명: ch05-1.c
+
+ * 내용: 
+ * 작성자:조윤경
+
+ * 날짜: 2025.4. 29
+
+ * 버전: v1.0
+
+ */
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
