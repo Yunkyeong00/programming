@@ -42,27 +42,3 @@ int main()
 
 }
 
-/*int main()
-{
-    distance();
-
-    return 0;
-
-}
-
-float distance()
-{
-    float a, b, c, d;
-    printf("직선의 시작점 좌표?");
-    scanf("%f %f", &a, &b);
-
-    printf("직선의 끝점 좌표?");
-    scanf("%f %f", &c, &d);
-
-    double result;
-    result =sqrt((c - a) * (c - a) + (d - b) * (d - b));
-
-      printf("(%.0f, %.0f)~(%.0f, %.0f) 직선의 길이: %.6f\n", a, b, c, d, result);
-
-
-}*/
