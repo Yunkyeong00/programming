@@ -31,7 +31,7 @@ void printContact(Contact ct)
 	printf("연도: %d \n", ct.year);
 
 }
-//
+//두 사람 비교
 int isEqualContactPtr(const Contact * a, const Contact *b)
 {
 	if (a->year == b ->year && a->gender == b->gender &&

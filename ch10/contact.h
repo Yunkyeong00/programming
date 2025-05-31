@@ -18,7 +18,7 @@ struct contact
 typedef struct contact Contact;
 
 int isEqualContact(Contact a, Contact b);
-void prinfContact(Contact ct);
+void printContact(Contact ct);
 int isEqualContactPtr(const Contact* a, const Contact* b);
 void printContactPtr(const Contact* ct);
 
