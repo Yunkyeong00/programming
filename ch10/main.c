@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "contact.h"
+#include "contact.h"//함수 선언 헤더
 
 void testContact();
 
@@ -18,8 +18,8 @@ void testContact()
 	Contact c2 = { "홍길동","010665753615" , MAN ,2025 };
 	Contact c3 = { "홍길동","010685757315" , MAN ,2025 };
 
-	printContact(c1);
-	printContactPtr(&c2);
+	printContact(c1);//구조체 c1을 복사해서 함수에 넘김
+	printContactPtr(&c2);//주소만 넘김
 
 	int resultt1 = isEqualContact(c1, c2);
 	int resultt2 = isEqualContactPtr(&c2, &c3);
